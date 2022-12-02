@@ -1,0 +1,13 @@
+@use 'variables';
+
+*{
+    padding:0;
+    margin:0;
+    font-family: variables.$font-titles;
+    color: variables.$text-primary;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: variables.$body-bg-color;
+}

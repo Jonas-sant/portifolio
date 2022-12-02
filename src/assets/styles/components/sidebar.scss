@@ -1,0 +1,56 @@
+@use '../variables';
+
+#sidebar{
+    flex: 1 1 0;
+    border-radius: variables.$medium-border-radius;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    padding: 3rem 0;
+    background: #f0f0f0;
+    box-shadow:  -20px 20px 76px #cccccc,
+                20px -15px 76px #ffffff;
+
+
+    .profilePicture{
+        width: 60%;
+        border-radius:variables.$medium-border-radius;
+        position: absolute;
+        top: -3rem;
+    }
+
+    ul{
+        margin-top: 2.6rem;
+
+        li{
+            color:#fff;
+            list-style:none;
+            display:flex;
+            flex-direction:column;
+            align-items: flex-start;
+            justify-content: flex-start;
+            
+
+            .itemList{
+                width:100%;
+                display:flex;
+                
+                
+                margin-bottom:.8rem;
+                padding-bottom:.3rem;
+                border-bottom:1px solid #ccc;
+
+                div{
+                    text-align: left;
+                }
+                img{
+                    padding-right:.4rem;
+                }
+            }
+        }
+    }
+
+    
+}

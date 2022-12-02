@@ -1,0 +1,19 @@
+@use '../variables';
+
+#social-network{
+    width:14rem;
+    margin-top: 13rem;
+    z-index:999;
+    padding: .8rem 0;
+    
+    background-color:variables.$body-bg-color;
+    border-radius:variables.$small-border-radius;
+
+    .social-btn{
+        margin: .4rem 1rem;
+        
+    }
+    svg{
+        font-size:1.6rem;        
+    }
+}

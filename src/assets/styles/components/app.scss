@@ -1,0 +1,9 @@
+@use '../variables';
+
+#portifolio{
+    display:flex;
+    flex-wrap: wrap;
+    padding: 3rem;
+    margin-top:2rem;
+    gap: 3rem; //gap -> serve para definir o espaçamento entre os elementos
+}

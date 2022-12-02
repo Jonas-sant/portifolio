@@ -1,0 +1,16 @@
+@use '../variables.scss';
+
+.cardBlogPost{
+    width: 18rem;
+
+    img{
+        width: 100%;
+    }
+    p{
+        font-size: .9rem;
+    }
+    span{
+        font-weight:bold;
+        color:variables.$text-secondary;
+    }
+}

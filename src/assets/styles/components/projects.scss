@@ -1,0 +1,54 @@
+@use '../variables.scss';
+
+.titleSection{
+    text-transform: uppercase;
+    text-align: center;
+    margin: 2rem 0rem;
+}
+
+.containerProjects{
+    width: 95%;
+    margin:auto;
+    
+    padding: 2rem 0rem;
+
+    .cardProject{
+        width: 17rem;
+        
+
+        .cardContentProject{
+
+            p{
+                font-size:.8rem;
+            }
+            .actionCardProject{
+                width: 90%;
+                padding: .6rem 0rem;
+                margin:auto;
+
+                display:flex;
+                justify-content:space-between;
+                align-items:center;
+
+                button{
+                    border:none;
+                    color:#fff;
+                    font-weight:semi-bold;
+                    border-radius: variables.$small-border-radius;
+                    background-color: blue;
+                    padding: .2rem 1.5rem;
+                    cursor:pointer;
+                    
+                    &:hover{
+                        background-color:#fff;
+                        color:aqua;
+                    }
+                }
+            }
+        }
+    }
+    
+}
+
+
+
