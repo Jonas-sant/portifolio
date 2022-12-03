@@ -4,6 +4,7 @@ import '../assets/styles/components/sidebar.scss';
 import Avatar from '../assets/img/picture_profile.png';
 import Gmail from '../assets/img/gmail.svg';
 import Whatsapp from '../assets/img/whatsapp.svg';
+import Telegram from '../assets/img/telegram.svg';
 
 function SideBar(){
     return(
@@ -15,7 +16,9 @@ function SideBar(){
                 <ul>
                     <li>
                         <div className="itemList">
-                        <img src={Gmail} width={40} height={40}/>
+                            <div className="imgWrapper">
+                                <img src={Gmail} width={40} height={40}/>
+                            </div>
                             <div>
                                 <h4>E-mail</h4>
                                 <span>jonas.santos9708@gmail.com</span>
@@ -25,7 +28,9 @@ function SideBar(){
 
                     <li>
                         <div className="itemList">
-                            <img src={Whatsapp} width={50} height={50}/>
+                            <div className="imgWrapper">
+                                <img src={Whatsapp} width={50} height={50}/>    
+                            </div>
                             <div>
                                 <h4>Whatsapp</h4>
                                 <span>+55 19 993459829</span>
@@ -35,9 +40,12 @@ function SideBar(){
 
                     <li>
                         <div className="itemList">
-                            <img />                        
+                            <div className="imgWrapper">
+                                <img src={Telegram} width={40} height={40}/>
+                            </div>                        
                             <div>
-
+                                <h4>Telegram</h4>
+                                <span>@jonassantos97</span>
                             </div>
                         </div>
                     </li>

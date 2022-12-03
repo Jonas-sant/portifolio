@@ -55,10 +55,6 @@ function MySkills(){
                                 <img src={Laravel} width={25} height={25}/>
                                 <span>Laravel</span>
                             </li>
-                            <li>
-                                <img src={NodeJS} width={25} height={25}/>
-                                <span>Node.JS</span>
-                            </li>
                         </ul>
                     </div>
                     <div className="cardSkills">

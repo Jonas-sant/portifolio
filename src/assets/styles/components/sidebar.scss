@@ -45,9 +45,15 @@
                 div{
                     text-align: left;
                 }
-                img{
-                    padding-right:.4rem;
+                
+                .imgWrapper{
+                    width: 55px;
+                    margin-right: .2rem;
+                    display:flex;
+                    align-items: center;
+                    justify-content: center;
                 }
+               
             }
         }
     }
