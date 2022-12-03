@@ -20,8 +20,8 @@ function MainContent(){
             .
             </p>
             <MySkills/>
-            <Projects/>
-            <BlogPosts/>
+            <Projects/> 
+           {/*  <BlogPosts/>*/}
             <Contact/>
         </section>
     );
