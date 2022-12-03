@@ -1,2 +1,47 @@
 @use '../variables.scss';
 
+.form{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    
+    margin:auto;
+    
+    h5{
+        margin-top: .4rem;
+    }
+
+    input[type="text"], textarea{
+        margin: .3rem 0rem;
+        font-size:1.1rem;
+        border:none;
+
+        padding:.3rem;
+        background: transparent;
+        border-bottom: 1px solid rgb(65, 64, 64);
+        resize:none;
+        outline: none;
+    }
+    input[type="submit"]{
+        margin-top:.6rem;
+        padding: .6rem 0rem;
+        
+        color:rgb(255, 255, 255);
+        background-color:#038ec5;
+        font-weight:bold;
+
+        border:none;
+        border-radius:variables.$medium-border-radius;
+        
+        cursor: pointer;
+
+        &:hover{
+            background-color:#04b1f5;
+        }
+    }
+
+    .spanWatsapp{
+        font-size:.8rem;
+        color: rgb(163, 162, 162);
+    }
+}
